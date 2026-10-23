@@ -1,12 +1,12 @@
 {
-  "updated_utc": "2026-10-22T23:27:20.626485+00:00",
+  "updated_utc": "2026-10-23T05:01:15.738145+00:00",
   "mode": "PAPER_ONLY",
   "initial_cash_per_strategy": 1000.0,
   "markets": {
     "BTC": {
-      "price": 81404.5,
-      "last_candle_utc": "2026-10-22T16:00:00+00:00",
-      "new_candles": 2,
+      "price": 81775.3,
+      "last_candle_utc": "2026-10-23T00:00:00+00:00",
+      "new_candles": 4,
       "strategies": {
         "RSI21_35_65": {
           "return": 0.0,
@@ -32,9 +32,9 @@
       }
     },
     "ETH": {
-      "price": 2384.14,
-      "last_candle_utc": "2026-10-22T16:00:00+00:00",
-      "new_candles": 2,
+      "price": 2407.88,
+      "last_candle_utc": "2026-10-23T00:00:00+00:00",
+      "new_candles": 4,
       "strategies": {
         "RSI21_35_65": {
           "return": 0.0,
