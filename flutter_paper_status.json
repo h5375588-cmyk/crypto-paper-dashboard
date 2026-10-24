@@ -1,17 +1,17 @@
 {
-  "updated_utc": "2026-10-24T18:50:12.225281+00:00",
+  "updated_utc": "2026-10-24T22:33:32.792523+00:00",
   "mode": "PAPER_ONLY",
   "initial_cash_per_strategy": 1000.0,
   "markets": {
     "BTC": {
-      "price": 79700.1,
-      "last_candle_utc": "2026-10-24T12:00:00+00:00",
-      "new_candles": 13,
+      "price": 80375.8,
+      "last_candle_utc": "2026-10-24T16:00:00+00:00",
+      "new_candles": 14,
       "strategies": {
         "RSI21_35_65": {
-          "return": -0.28135489309026873,
+          "return": -0.07178942831997936,
           "drawdown": 0.2813548930902698,
-          "equity": 997.1864510690973,
+          "equity": 999.2821057168002,
           "trades": [
             [
               1792843200,
@@ -22,16 +22,22 @@
           "open_position": true
         },
         "BOLL30_2": {
-          "return": 0.0,
+          "return": 0.17417694805306194,
           "drawdown": 0.0,
-          "equity": 1000.0,
-          "trades": [],
-          "open_position": false
+          "equity": 1001.7417694805306,
+          "trades": [
+            [
+              1792857600,
+              "BUY",
+              79739.95
+            ]
+          ],
+          "open_position": true
         },
         "REGIME_SWITCH": {
-          "return": -0.28135489309026873,
+          "return": -0.07178942831997936,
           "drawdown": 0.2813548930902698,
-          "equity": 997.1864510690973,
+          "equity": 999.2821057168002,
           "trades": [
             [
               1792843200,
@@ -44,30 +50,48 @@
       }
     },
     "ETH": {
-      "price": 2303.3,
-      "last_candle_utc": "2026-10-24T12:00:00+00:00",
-      "new_candles": 13,
+      "price": 2336.67,
+      "last_candle_utc": "2026-10-24T16:00:00+00:00",
+      "new_candles": 14,
       "strategies": {
         "RSI21_35_65": {
-          "return": 0.0,
+          "return": 0.3245286027665717,
           "drawdown": 0.0,
-          "equity": 1000.0,
-          "trades": [],
-          "open_position": false
+          "equity": 1003.2452860276658,
+          "trades": [
+            [
+              1792857600,
+              "BUY",
+              2304.422
+            ]
+          ],
+          "open_position": true
         },
         "BOLL30_2": {
-          "return": 0.0,
+          "return": 0.3245286027665717,
           "drawdown": 0.0,
-          "equity": 1000.0,
-          "trades": [],
-          "open_position": false
+          "equity": 1003.2452860276658,
+          "trades": [
+            [
+              1792857600,
+              "BUY",
+              2304.422
+            ]
+          ],
+          "open_position": true
         },
         "REGIME_SWITCH": {
-          "return": 0.0,
+          "return": 0.3245286027665717,
           "drawdown": 0.0,
-          "equity": 1000.0,
-          "trades": [],
-          "open_position": false
+          "equity": 1003.2452860276658,
+          "trades": [
+            [
+              1792857600,
+              "BUY",
+              2304.422
+            ]
+          ],
+          "open_position": true
         }
       }
     }
