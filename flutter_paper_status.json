@@ -1,19 +1,25 @@
 {
-  "updated_utc": "2026-10-24T12:45:41.562361+00:00",
+  "updated_utc": "2026-10-24T18:50:12.225281+00:00",
   "mode": "PAPER_ONLY",
   "initial_cash_per_strategy": 1000.0,
   "markets": {
     "BTC": {
-      "price": 80486.5,
-      "last_candle_utc": "2026-10-24T08:00:00+00:00",
-      "new_candles": 12,
+      "price": 79700.1,
+      "last_candle_utc": "2026-10-24T12:00:00+00:00",
+      "new_candles": 13,
       "strategies": {
         "RSI21_35_65": {
-          "return": 0.0,
-          "drawdown": 0.0,
-          "equity": 1000.0,
-          "trades": [],
-          "open_position": false
+          "return": -0.28135489309026873,
+          "drawdown": 0.2813548930902698,
+          "equity": 997.1864510690973,
+          "trades": [
+            [
+              1792843200,
+              "BUY",
+              80526.743
+            ]
+          ],
+          "open_position": true
         },
         "BOLL30_2": {
           "return": 0.0,
@@ -23,18 +29,24 @@
           "open_position": false
         },
         "REGIME_SWITCH": {
-          "return": 0.0,
-          "drawdown": 0.0,
-          "equity": 1000.0,
-          "trades": [],
-          "open_position": false
+          "return": -0.28135489309026873,
+          "drawdown": 0.2813548930902698,
+          "equity": 997.1864510690973,
+          "trades": [
+            [
+              1792843200,
+              "BUY",
+              80526.743
+            ]
+          ],
+          "open_position": true
         }
       }
     },
     "ETH": {
-      "price": 2362.56,
-      "last_candle_utc": "2026-10-24T08:00:00+00:00",
-      "new_candles": 12,
+      "price": 2303.3,
+      "last_candle_utc": "2026-10-24T12:00:00+00:00",
+      "new_candles": 13,
       "strategies": {
         "RSI21_35_65": {
           "return": 0.0,
