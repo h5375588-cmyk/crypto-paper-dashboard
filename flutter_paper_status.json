@@ -1,17 +1,17 @@
 {
-  "updated_utc": "2026-10-26T21:04:14.861357+00:00",
+  "updated_utc": "2026-10-27T05:14:56.085726+00:00",
   "mode": "PAPER_ONLY",
   "initial_cash_per_strategy": 1000.0,
   "markets": {
     "BTC": {
-      "price": 79887.6,
-      "last_candle_utc": "2026-10-26T16:00:00+00:00",
-      "new_candles": 26,
+      "price": 79682.1,
+      "last_candle_utc": "2026-10-27T00:00:00+00:00",
+      "new_candles": 28,
       "strategies": {
         "RSI21_35_65": {
-          "return": -0.223202570100145,
+          "return": -0.28693751609732976,
           "drawdown": 0.3974969010029636,
-          "equity": 997.7679742989985,
+          "equity": 997.1306248390267,
           "trades": [
             [
               1792843200,
@@ -22,9 +22,9 @@
           "open_position": true
         },
         "BOLL30_2": {
-          "return": 0.021269814487490102,
+          "return": -0.04309400351275583,
           "drawdown": 0.4004297273306817,
-          "equity": 1000.2126981448749,
+          "equity": 999.5690599648724,
           "trades": [
             [
               1792857600,
@@ -35,9 +35,9 @@
           "open_position": true
         },
         "REGIME_SWITCH": {
-          "return": -0.223202570100145,
+          "return": -0.28693751609732976,
           "drawdown": 0.3974969010029636,
-          "equity": 997.7679742989985,
+          "equity": 997.1306248390267,
           "trades": [
             [
               1792843200,
@@ -50,14 +50,14 @@
       }
     },
     "ETH": {
-      "price": 2314.33,
-      "last_candle_utc": "2026-10-26T16:00:00+00:00",
-      "new_candles": 26,
+      "price": 2311.02,
+      "last_candle_utc": "2026-10-27T00:00:00+00:00",
+      "new_candles": 28,
       "strategies": {
         "RSI21_35_65": {
-          "return": 0.08241055914646189,
+          "return": 0.046537205324503894,
           "drawdown": 0.6431181284239539,
-          "equity": 1000.8241055914647,
+          "equity": 1000.4653720532451,
           "trades": [
             [
               1792857600,
@@ -68,9 +68,9 @@
           "open_position": true
         },
         "BOLL30_2": {
-          "return": 0.08241055914646189,
+          "return": 0.046537205324503894,
           "drawdown": 0.6431181284239539,
-          "equity": 1000.8241055914647,
+          "equity": 1000.4653720532451,
           "trades": [
             [
               1792857600,
@@ -81,17 +81,22 @@
           "open_position": true
         },
         "REGIME_SWITCH": {
-          "return": 0.08241055914646189,
+          "return": 0.11113601423871078,
           "drawdown": 0.6431181284239539,
-          "equity": 1000.8241055914647,
+          "equity": 1001.1113601423872,
           "trades": [
             [
               1792857600,
               "BUY",
               2304.422
+            ],
+            [
+              1793059200,
+              "SELL",
+              2319.3
             ]
           ],
-          "open_position": true
+          "open_position": false
         }
       }
     }
